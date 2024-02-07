@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.figure {
+    margin-top: 200px;/*Внешний верхний отступ*/
+    width: 200px;/*Задаём ширину элементу*/
+    height: 200px;/*Задаём ширину элементу*/
+    background-color: aqua;/*задаём фон фигуры*/
+    transition: 5s;/*задаём время трансформации объекта*/
+    margin-left: auto;/*задаём автоматический отступ для центровки*/
+    margin-right: auto;/*задаём автоматический отступ для центровки*/
+}
+
+.figure:hover {/*Создаюм псевдокласс для применения нового стиля при наведения*/
+    background-color: rgb(20, 255, 114);
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 20px;/*превращаем элимент в круг*/
+    transform: rotate(360deg);/*задаём вращение в градусах*/
+    cursor: pointer;
+
+}
